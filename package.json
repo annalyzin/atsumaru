@@ -1,0 +1,25 @@
+{
+  "name": "atsumaru",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://annalyzin.github.io/atsumaru",
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "@babel/runtime": "^7.11.2",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "core-js": "^2.6.11",
+    "gh-pages": "^1.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
