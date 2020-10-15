@@ -61,6 +61,7 @@ const SelectedBlocks = ({ blocks, selectedBlockIds, unselectBlock }) => {
     <div
         style={{
         display: "flex",
+        width: "100%",
         flexWrap: "wrap",
         alignContent: "center",
         height: `${blocks.length + 15}%`,
@@ -146,6 +147,7 @@ const UnselectedBlocks = ({ blocks, selectedBlockIds, selectBlock }) => (
   <div
     style={{
       display: "flex",
+      width: "100%",
       flexWrap: "wrap",
       alignContent: "center",
       height: `${blocks.length}%`
@@ -228,7 +230,7 @@ const Results = ({ answered, isCorrect, solution }) =>
       }}
     >
       {isCorrect ? (
-        <div><p>CORRECT</p></div>
+        <div><p>That's correct!</p></div>
       ) : (
         <div>
           <div dangerouslySetInnerHTML={{ __html: solution }} />
@@ -327,7 +329,7 @@ class Lesson extends Component {
     return (
       <div
         style={{
-          maxWidth: 500,
+          maxWidth: 450,
           margin: "0 auto",
           padding: "0 1em",
           height: "100vh"
