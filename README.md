@@ -1,7 +1,29 @@
-References:
-- React App: https://github.com/bryanjenningz/react-duolingo
-- NHK News API: https://github.com/TianyiShi2001/nhk-easy
+# Atsumaru
+## Duolingo-style Japanese Practice App
 
+Atsumaru (集まる) means to assemble, which is the essence of this app—it requires you to assemble word tokens to reconstruct the daily Japanese news snippets from NHK Easy News.
+
+Play Atsumaru here: https://annalyzin.github.io/atsumaru/
+
+NHK is a great resource for learning Japanese, but I have a short attention span. Gamifying my news-reading routine has not only helped me to read more articles, but also made me more aware of nuanced syntax rules.
+
+The game structure is similar to a format used in the Duolingo app, in which an English translation is given as a hint, and the player has to rearrange the tokens to get the right sentence structure. 
+
+The app fetches the latest batch of 3x news articles every weekday for practice. Historical articles are not accessible. AWS is used as the backend, architecture shown below. To add to the challenge, Amazon Translate, more often than not, gives pretty funky translations. 
+
+![Atsumaru Architecture](imgs/architecture.png)
+
+Sample screenshots:
+
+![Atsumaru App](imgs/demo_qn.png)![Atsumaru App](imgs/demo_qn_complete.png)![Atsumaru App](imgs/demo_incorrect.png)![Atsumaru App](imgs/demo_correct.png)
+
+Play Atsumaru here: https://annalyzin.github.io/atsumaru/
+
+
+## Credits
+Atsumaru was built with:
+- React-Duolingo App: https://github.com/bryanjenningz/react-duolingo
+- NHK News API: https://github.com/TianyiShi2001/nhk-easy
 
 ......
 
