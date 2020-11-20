@@ -15,7 +15,7 @@ The app fetches the latest batch of 3x news articles every weekday for practice.
 
 Sample screenshots:
 
-![Atsumaru App](imgs/demo_qn.jpg)![Atsumaru App](imgs/demo_qn_complete.jpg)![Atsumaru App](imgs/demo_incorrect.jpg)![Atsumaru App](imgs/demo_correct.jpg)
+![Atsumaru App](imgs/demo.png)
 
 Play Atsumaru here: https://annalyzin.github.io/atsumaru/
 
