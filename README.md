@@ -11,7 +11,7 @@ The game structure is similar to a format used in the Duolingo app, in which an 
 
 The app fetches the latest batch of 3x news articles every weekday for practice. Historical articles are not accessible. AWS is used as the backend, architecture shown below. To add to the challenge, Amazon Translate, more often than not, gives pretty funky translations. 
 
-![Atsumaru Architecture](imgs/architecture.png)
+![Atsumaru Architecture](imgs/architecture_revised.png)
 
 Sample screenshots:
 
